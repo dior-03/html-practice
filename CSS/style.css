@@ -9,6 +9,18 @@ body {
   align-items: center;
 }
 
+.site-logo {
+  transition: opacity 0.4s ease;
+}
+
+.site-logo:hover {
+  opacity: 0.8;
+}
+
+.site-logo:active {
+  opacity: 0.6;
+}
+
 .site-header-right {
   display: flex;
   justify-content: left;
@@ -36,6 +48,15 @@ body {
   letter-spacing: 1px;
   color: #252420;
   text-decoration: none;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.nav-links:hover {
+  color: #FF7500;
+}
+
+.nav-links:active {
+  opacity: 0.6;
 }
 
 .header-button, .hero-button, .promo-button {
@@ -44,6 +65,15 @@ body {
   text-decoration: none;
   background-color: #FF7500;
   color: white;
+  transition: opacity 0.4s ease;
+}
+
+.header-button:hover {
+  opacity: 0.8;
+}
+
+.header-button:active {
+  opacity: 0.6;
 }
 
 .hero {
@@ -75,6 +105,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.5;
+}
+
+.hero-button:hover {
+  opacity: 0.8;
+}
+
+.hero-button:active {
+  opacity: 0.6;
 }
 
 .hero-img {
@@ -145,6 +183,14 @@ body {
   font-weight: bold;
 }
 
+.promo-button:hover {
+  opacity: 0.8;
+}
+
+.promo-button:active {
+  opacity: 0.6;
+}
+
 .promo-img-wrapper {
   width: 440px;
   height: 440px;
@@ -170,6 +216,20 @@ body {
 .footer-social-link-item {
   width: 24px;
   height: 24px;
+
+}
+
+.footer-social-link-item a{
+  color: #252420;
+  transition: color 0.4s ease, opacity 0.4s ease;
+}
+
+.footer-social-link-item a:hover {
+  color: #FF7500; 
+}
+
+.footer-social-link-item a:active {
+  opacity: 0.6;
 }
 
 .list {
@@ -193,4 +253,13 @@ body {
   text-decoration: none;
   font-size: 16px;
   line-height: 19px;
+  transition: opacity 0.4s ease, color 0.4s ease;
+}
+
+.links:hover {
+  color: #FF7500;
+}
+
+.links:active {
+  opacity: 0.6;
 }
