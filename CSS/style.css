@@ -2,6 +2,11 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+*:focus {
+  outline: 2px dotted #FF7500;
+  outline-offset: 3px;
+}
+
 .site-header {
   background-color: white;
   display: flex;
